@@ -1,0 +1,305 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>7 Digital Tech – Introduction</title><link>https://tmcdigitech.github.io/7/assessment/introduction/</link><description>Recent content in Introduction on 7 Digital Tech</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://tmcdigitech.github.io/7/assessment/introduction/index.xml" rel="self" type="application/rss+xml"/><item><title>Assessment: 1: Folio</title><link>https://tmcdigitech.github.io/7/assessment/introduction/1-folio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/7/assessment/introduction/1-folio/</guid><description>
+&lt;h2 id="purpose">Purpose&lt;/h2>
+&lt;ul>
+&lt;li>To improve your accuracy and attention to detail in written communication so that you can:
+&lt;ul>
+&lt;li>be understood by a computer&lt;/li>
+&lt;li>communicate more accurately with others&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>To recognise patterns in code and text, so that you can:
+&lt;ul>
+&lt;li>spot and fix errors&lt;/li>
+&lt;li>make modifications and improvements to existing code&lt;/li>
+&lt;li>make your own code that works from pieces you&amp;rsquo;ve seen before&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>To develop your Computational Thinking skills by solving a variety of real world problems using the Micro:bit and Python code with branching and iterations.&lt;/li>
+&lt;/ul>
+&lt;h2 id="learning-behaviours">Learning Behaviours&lt;/h2>
+&lt;p>This task provides the following opportunities to develop and demonstrate the Learner Behaviours:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>LB&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Driven&lt;/td>
+&lt;td>Engages in Python coding challenges with persistence; learns from their mistakes; willingly completes the extension activities.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Curious&lt;/td>
+&lt;td>Explores and tests ideas by asking questions, researching and through trial and error when learning new skills or developing solutions.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Collaborators&lt;/td>
+&lt;td>Works in teams to solve problems and create new information. Willingly shares new skills and knowledge and assists others and seeks assistance from peers.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Connected&lt;/td>
+&lt;td>Connects programming constructs and data structures to real life applications and is able to explore and discuss issues and ethical implications of their solution.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Flexible Thinkers&lt;/td>
+&lt;td>Applies new knowledge and skills to solve problems and is able to adapt and recognize patterns in other solutions.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Disciplined&lt;/td>
+&lt;td>Motivated learner who demonstrates initiative by following a project management process to complete a project.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="to-be-successful">To be successful&lt;/h2>
+&lt;ul>
+&lt;li>Accurately and independently complete all 6 modules&lt;/li>
+&lt;li>Include your code and output for each exercise in your OneNote section called Task 1 Folio Algorithms and coding.&lt;/li>
+&lt;/ul>
+&lt;p>Include comments with your all Python code
+Use the correct programming structure (selection and iteration)
+Complete core and attempt any extension exercises&lt;/p>
+&lt;div class="alert alert-primary" role="alert">
+&lt;h4 class="alert-heading">Working at home?&lt;/h4>
+Try the Microbit simulator at &lt;a href="https://create.withcode.uk">create.withcode.uk&lt;/a>. Type your code in as usual (including the all important &lt;code>from microbit import *&lt;/code> line), and then press the big play (▶) button in the bottom right to run it.
+&lt;/div>
+&lt;h2 id="task-description">Task Description&lt;/h2>
+&lt;p>Students work through a series of tasks introducing them to sequencing, debugging, output, variables, lists, selection and iteration while using MicroPython and the BBC micro: bit. Students develop their Computational Thinking skills designing, implementing and evaluating algorithms.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Section&lt;/th>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="https://view.officeapps.live.com/op/view.aspx?src=https://tmcdigitech.github.io/7/files/microbit/01-Sequencing.pptx">1. Sequencing&lt;/a>&lt;/td>
+&lt;td>1.1&lt;/td>
+&lt;td>1.2&lt;/td>
+&lt;td>1.3&lt;/td>
+&lt;td>1.4&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://view.officeapps.live.com/op/view.aspx?src=https://tmcdigitech.github.io/7/files/microbit/02-Variables-and-Lists.pptx">2. Variables and Lists&lt;/a>&lt;/td>
+&lt;td>2.1&lt;/td>
+&lt;td>2.2&lt;/td>
+&lt;td>2.3&lt;/td>
+&lt;td>2.4&lt;/td>
+&lt;td>2.5&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://tmcdigitech.github.io/7/7/files/microbit/imageTemplate.xlsx" download>Image design template&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://view.officeapps.live.com/op/view.aspx?src=https://tmcdigitech.github.io/7/files/microbit/03-Iteration-and-Selection.pptx">3. Iteration and Selection&lt;/a>&lt;/td>
+&lt;td>3.1&lt;/td>
+&lt;td>3.2&lt;/td>
+&lt;td>3.3&lt;/td>
+&lt;td>3.4&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://view.officeapps.live.com/op/view.aspx?src=https://tmcdigitech.github.io/7/files/microbit/04-Accelerometer.pptx">4. Accelerometer&lt;/a>&lt;/td>
+&lt;td>4.1&lt;/td>
+&lt;td>4.2&lt;/td>
+&lt;td>4.3&lt;/td>
+&lt;td>4.4&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Ext&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://view.officeapps.live.com/op/view.aspx?src=https://tmcdigitech.github.io/7/files/microbit/05-Music.pptx">5. Music&lt;/a>&lt;/td>
+&lt;td>5.1&lt;/td>
+&lt;td>5.2&lt;/td>
+&lt;td>5.3&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Ext&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://view.officeapps.live.com/op/view.aspx?src=https://tmcdigitech.github.io/7/files/microbit/06-Networking.pptx">6. Networking&lt;/a>&lt;/td>
+&lt;td>6.1&lt;/td>
+&lt;td>6.2&lt;/td>
+&lt;td>6.3&lt;/td>
+&lt;td>6.4&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Ext&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Assessment: 2: Quiz</title><link>https://tmcdigitech.github.io/7/assessment/introduction/2-quiz/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/7/assessment/introduction/2-quiz/</guid><description>
+&lt;h2 id="purpose">Purpose&lt;/h2>
+&lt;p>To test your understanding and programming knowledge of Python and the Micro:bit.&lt;/p>
+&lt;h2 id="learning-behaviours">Learning Behaviours&lt;/h2>
+&lt;p>This task provides the following opportunities to develop and demonstrate the Learner Behaviours:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>LB&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Connected&lt;/td>
+&lt;td>Connects programming constructs and data structures to real life applications and is able to explore and discuss issues and ethical implications of their solution&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Flexible Thinkers&lt;/td>
+&lt;td>Applies new knowledge and skills to solve problems and is able to adapt and recognize patterns in other solutions&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="to-be-successful">To be successful&lt;/h2>
+&lt;p>Accurately and independently complete all quiz questions applying your programming knowledge of Python.&lt;/p>
+&lt;ul>
+&lt;li>Read the questions carefully&lt;/li>
+&lt;li>Use the correct programming structure (selection and iteration)&lt;/li>
+&lt;li>Complete all questions&lt;/li>
+&lt;/ul>
+&lt;h2 id="task-description">Task Description&lt;/h2>
+&lt;p>Complete the online quiz demonstrating your programming knowledge of Python and Micro:bit. The quiz will be posted on
+&lt;a href="https://learn.tmc.catholic.edu.au/#?page=/myed">MyEdOnline&lt;/a>.&lt;/p></description></item><item><title>Assessment: 3: Magic 8-ball</title><link>https://tmcdigitech.github.io/7/assessment/introduction/3-magic8ball/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/7/assessment/introduction/3-magic8ball/</guid><description>
+&lt;h2 id="purpose">Purpose&lt;/h2>
+&lt;p>To develop your Computational Thinking skills by implementing a digital solution using the Micro:bit and Python code with branching and iteration.&lt;/p>
+&lt;h2 id="learning-behaviours">Learning behaviours&lt;/h2>
+&lt;p>This task provides the following opportunities to develop and demonstrate the Learner Behaviours:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>LB&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Driven&lt;/td>
+&lt;td>Engages in Python coding challenges with persistence; learns from their mistakes; willingly completes the extension activities.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Curious&lt;/td>
+&lt;td>Explores and tests ideas by asking questions, researching and through trial and error when learning new skills or developing solutions.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Collaborators&lt;/td>
+&lt;td>Works in teams to solve problems and create new information. Willingly shares new skills and knowledge and assists others and seeks assistance from peers.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Connected&lt;/td>
+&lt;td>Connects programming constructs and data structures to real life applications and is able to explore and discuss issues and ethical implications of their solution.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Flexible Thinkers&lt;/td>
+&lt;td>Applies new knowledge and skills to solve problems and is able to adapt and recognize patterns in other solutions.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Disciplined&lt;/td>
+&lt;td>Motivated learner who demonstrates initiative by following a project management process to complete a project.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="to-be-successful">To be successful&lt;/h2>
+&lt;p>Accurately and independently complete all 5 steps include your code and comments in your OneNote section called &lt;em>Task 3 Coding a Magic Eight Ball&lt;/em>.&lt;/p>
+&lt;ul>
+&lt;li>Include comments with your all Python code&lt;/li>
+&lt;li>Use the correct programming structure (selection and iteration)&lt;/li>
+&lt;li>Complete core and attempt all parts of Step 5.&lt;/li>
+&lt;/ul>
+&lt;h2 id="task-description">Task description&lt;/h2>
+&lt;p>Using the Microbit, make a Magic 8-ball by following steps 1-5 below.&lt;/p>
+&lt;p>Ensure your app is working by carrying out testing and modifying your code. Include comments in your code and &lt;a href="http://10.124.229.70:8080/">hand it in&lt;/a> when finished.&lt;/p>
+&lt;p>The &lt;strong>Magic 8-ball&lt;/strong> is a fortune telling toy created by Mattel in the 1950s. The concept is simple. Ask the 8-ball a yes or no question and the 8-ball will reply with answers such as “Yes”, “No”, “Without a doubt” etc. (seemingly able to predict the future). The Magic 8 Ball is made up of 20 responses — 10 positive, 5 negative and 5 neutral. The 20 answers are:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Positive answers&lt;/p>
+&lt;ul>
+&lt;li>It is certain&lt;/li>
+&lt;li>It is decidedly so&lt;/li>
+&lt;li>Without a doubt&lt;/li>
+&lt;li>Yes definitely&lt;/li>
+&lt;li>You may rely on it&lt;/li>
+&lt;li>As I see it, yes&lt;/li>
+&lt;li>Most likely&lt;/li>
+&lt;li>Outlook good&lt;/li>
+&lt;li>Yes&lt;/li>
+&lt;li>Signs point to yes&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Negative answers&lt;/p>
+&lt;ul>
+&lt;li>Don&amp;rsquo;t count on it&lt;/li>
+&lt;li>My reply is no&lt;/li>
+&lt;li>My sources say no&lt;/li>
+&lt;li>Outlook not so good&lt;/li>
+&lt;li>Very doubtful&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Neutral answers&lt;/p>
+&lt;ul>
+&lt;li>Reply hazy, try again&lt;/li>
+&lt;li>Ask again later&lt;/li>
+&lt;li>Better not tell you now&lt;/li>
+&lt;li>Cannot predict now&lt;/li>
+&lt;li>Concentrate and ask again&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>According to &lt;a href="http://en.wikipedia.org/wiki/Magic_8-Ball">Wikipedia&lt;/a>:&lt;/p>
+&lt;blockquote>
+&lt;p>Using the coupon collector&amp;rsquo;s problem in probability theory, it can be shown that it takes, on average, 72 outcomes of the Magic 8 Ball for all 20 of its answers to appear at least once.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="1-write-an-8-to-the-screen">1: Write an ‘8’ to the screen&lt;/h3>
+&lt;p>In the Microbit app, write the following code:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">from&lt;/span> microbit &lt;span style="color:#ff79c6">import&lt;/span> &lt;span style="color:#ff79c6">*&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">import&lt;/span> random
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">while&lt;/span> &lt;span style="color:#ff79c6">True&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> sleep(&lt;span style="color:#bd93f9">1000&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> display&lt;span style="color:#ff79c6">.&lt;/span>show(&lt;span style="color:#f1fa8c">&amp;#34;8&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Upload the code to the Microbit and run it. What happens when you shake the Microbit?&lt;/p>
+&lt;h3 id="2-shake-it">2: Shake it!&lt;/h3>
+&lt;p>Add the following code to what you have already written, inside the &lt;code>while True:&lt;/code>.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">if&lt;/span> accelerometer&lt;span style="color:#ff79c6">.&lt;/span>was_gesture(&lt;span style="color:#f1fa8c">&amp;#34;shake&amp;#34;&lt;/span>):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> display&lt;span style="color:#ff79c6">.&lt;/span>clear()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> sleep(&lt;span style="color:#bd93f9">1000&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> display&lt;span style="color:#ff79c6">.&lt;/span>show(&lt;span style="color:#f1fa8c">&amp;#34;!&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Upload the code to the Microbit and run it. What happens when you shake the Microbit?&lt;/p>
+&lt;h3 id="3-write-some-responses">3: Write some responses&lt;/h3>
+&lt;p>We need to list our responses, and in Python we do that in a list variable. The list is Python&amp;rsquo;s equivalent to other languages&amp;rsquo; &lt;em>array&lt;/em>. Write this code before the &lt;code>while True:&lt;/code>.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>answers &lt;span style="color:#ff79c6">=&lt;/span> [&lt;span style="color:#f1fa8c">&amp;#34;Yes&amp;#34;&lt;/span>, &lt;span style="color:#f1fa8c">&amp;#34;No&amp;#34;&lt;/span>, &lt;span style="color:#f1fa8c">&amp;#34;Maybe&amp;#34;&lt;/span>, &lt;span style="color:#f1fa8c">&amp;#34;Yes, definitely&amp;#34;&lt;/span>]
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="4-pick-a-random-response">4: Pick a random response&lt;/h3>
+&lt;p>To make the Magic 8-Ball pick a random response, we can get it to pick a random answer using &lt;code>random.choice()&lt;/code>.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span> sleep(&lt;span style="color:#bd93f9">1000&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> display&lt;span style="color:#ff79c6">.&lt;/span>scroll(random&lt;span style="color:#ff79c6">.&lt;/span>choice(answers))
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Include this code so that when you shake the Microbit, the microbit will wait a second and then show a random answer to the question you put to it.&lt;/p>
+&lt;h3 id="5-modify-and-extend-your-code">5: Modify and extend your code&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>Modify your list to contain all 20 official responses.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Add comments to your code to explain how it works.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Modify your code so that it plays a sound when it gives a response.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Modify your code so that it counts how many responses and shows an image after 3 responses.&lt;/p>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>
