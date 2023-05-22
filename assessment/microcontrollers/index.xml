@@ -1,2 +1,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>7 Digital Tech – Microcontrollers</title><link>https://tmcdigitech.github.io/7/assessment/microcontrollers/</link><description>Recent content in Microcontrollers on 7 Digital Tech</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://tmcdigitech.github.io/7/assessment/microcontrollers/index.xml" rel="self" type="application/rss+xml"/><item><title>Assessment: 7: Digital Project</title><link>https://tmcdigitech.github.io/7/assessment/microcontrollers/7-project/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/7/assessment/microcontrollers/7-project/</guid><description>
-&lt;p>&lt;img src="picoLayout.png" alt="Pico Layout">&lt;/p></description></item></channel></rss>
+&lt;p>&lt;a href="7digitalProject.pptx">Project documentation template&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://downloads.circuitpython.org/bin/raspberry_pi_pico/en_US/adafruit-circuitpython-raspberry_pi_pico-en_US-8.0.5.uf2">Pi Pico Firmware&lt;/a>&lt;/p>
+&lt;p>&lt;img src="picoLayout.png" alt="Pico Layout">&lt;/p>
+&lt;p>Digital Solution
+Problem definition
+Problem definition is the process we follow and considerations we make to determine and describe the problems we intend to solve.&lt;/p>
+&lt;p>Describe Problems&lt;/p>
+&lt;p>Determining the nature and description of a
+problem to be solved.&lt;/p>
+&lt;ol>
+&lt;li>Identify the problem you wish to
+solve.&lt;/li>
+&lt;li>What are the outcomes, what does it
+need to do?&lt;/li>
+&lt;li>Identify the product client or clients (stakeholders).&lt;/li>
+&lt;/ol>
+&lt;p>Constraints&lt;/p>
+&lt;p>Constraints describe the restricting factors we face
+when solving problems, and how we factor these
+into our planned solutions.&lt;/p>
+&lt;ol start="4">
+&lt;li>Describe the limitations or restricting
+factors your solution may face.&lt;/li>
+&lt;/ol>
+&lt;p>Decompose Problems&lt;/p>
+&lt;p>Breaking a problem down into smaller, simpler
+problems that can be solved separately.
+5. What are the individual elements of
+the problem that can be solved
+separately to make the main problem
+more approachable/solvable?&lt;/p>
+&lt;p>Project Plan&lt;/p>
+&lt;p>Developing an approach or strategy to solve a
+problem or create a solution that considers the
+sources of data, resources available and potential
+timeframes or deadlines.
+6. Develop a project plan based on
+time-scale and resources and key features of the
+project deliverables&lt;/p>
+&lt;ol start="7">
+&lt;li>What are the logical steps to manage data files for
+the project?&lt;/li>
+&lt;/ol>
+&lt;p>Design
+Design algorithms captures the solution design we undertake to develop an automated solution to a problem.&lt;/p>
+&lt;p>Connection Diagram&lt;/p>
+&lt;ol start="14">
+&lt;li>Draw and label a detailed connection diagram.&lt;/li>
+&lt;/ol>
+&lt;p>Systems Diagram&lt;/p>
+&lt;p>INPUT&lt;/p>
+&lt;p>PROCESS&lt;/p>
+&lt;p>OUTPUT&lt;/p>
+&lt;p>Sensor&lt;/p>
+&lt;ol start="8">
+&lt;li>Describe the sensor(s) to be used and why?&lt;/li>
+&lt;li>What data will be collected from each sensor?&lt;/li>
+&lt;/ol>
+&lt;p>Algorithm
+Flowchart&lt;/p>
+&lt;ol start="10">
+&lt;li>&lt;/li>
+&lt;/ol>
+&lt;p>Design the algorithms for the solution (draw.io)&lt;/p>
+&lt;ol start="11">
+&lt;li>
+&lt;p>What is the output?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>What is be turned on/off or controlled?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>List the variables and their data type required.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Sensor&lt;/p>
+&lt;p>Processor&lt;/p>
+&lt;p>?&lt;/p></description></item></channel></rss>
