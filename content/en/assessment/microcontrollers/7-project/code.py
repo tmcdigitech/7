@@ -4,7 +4,7 @@ import board, neopixel, time, digitalio
 pixpin = board.GP28
 numpix = 3
 pixels = neopixel.NeoPixel(
-    pixpin, numpix, brightness=1, auto_write=True, pixel_order=neopixel.RGBW
+    pixpin, numpix, brightness=1, auto_write=True, pixel_order=neopixel.GRBW
 )
 
 sensor_pin = board.GP18
