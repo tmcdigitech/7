@@ -1,11 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>7 Digital Tech – Microcontrollers</title><link>https://tmcdigitech.github.io/7/assessment/microcontrollers/</link><description>Recent content in Microcontrollers on 7 Digital Tech</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://tmcdigitech.github.io/7/assessment/microcontrollers/index.xml" rel="self" type="application/rss+xml"/><item><title>Assessment: 7: Digital Project</title><link>https://tmcdigitech.github.io/7/assessment/microcontrollers/7-project/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/7/assessment/microcontrollers/7-project/</guid><description>
-&lt;p>&lt;a href="7digitalProject.pptx">Project documentation template&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://downloads.circuitpython.org/bin/raspberry_pi_pico/en_US/adafruit-circuitpython-raspberry_pi_pico-en_US-8.0.5.uf2">Pi Pico Firmware&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="7digitalProject.pptx">Project documentation template&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://downloads.circuitpython.org/bin/raspberry_pi_pico/en_US/adafruit-circuitpython-raspberry_pi_pico-en_US-8.0.5.uf2">Pi Pico Firmware&lt;/a>&lt;/li>
+&lt;li>&lt;a href="neopixel.mpy">Neopixel library&lt;/a>&lt;/li>
+&lt;/ul>
 &lt;p>&lt;img src="picoLayout.png" alt="Pico Layout">&lt;/p>
-&lt;p>Digital Solution
-Problem definition
-Problem definition is the process we follow and considerations we make to determine and describe the problems we intend to solve.&lt;/p>
-&lt;p>Describe Problems&lt;/p>
+&lt;h2 id="problem-definition">Problem definition&lt;/h2>
+&lt;p>Problem definition is the process we follow and considerations we make to determine and describe the problems we intend to solve.&lt;/p>
+&lt;h3 id="describe-problems">Describe Problems&lt;/h3>
 &lt;p>Determining the nature and description of a
 problem to be solved.&lt;/p>
 &lt;ol>
@@ -15,7 +17,7 @@ solve.&lt;/li>
 need to do?&lt;/li>
 &lt;li>Identify the product client or clients (stakeholders).&lt;/li>
 &lt;/ol>
-&lt;p>Constraints&lt;/p>
+&lt;h3 id="constraints">Constraints&lt;/h3>
 &lt;p>Constraints describe the restricting factors we face
 when solving problems, and how we factor these
 into our planned solutions.&lt;/p>
@@ -23,57 +25,54 @@ into our planned solutions.&lt;/p>
 &lt;li>Describe the limitations or restricting
 factors your solution may face.&lt;/li>
 &lt;/ol>
-&lt;p>Decompose Problems&lt;/p>
+&lt;h3 id="decompose-problems">Decompose Problems&lt;/h3>
 &lt;p>Breaking a problem down into smaller, simpler
-problems that can be solved separately.
-5. What are the individual elements of
+problems that can be solved separately.&lt;/p>
+&lt;ol start="5">
+&lt;li>What are the individual elements of
 the problem that can be solved
 separately to make the main problem
-more approachable/solvable?&lt;/p>
-&lt;p>Project Plan&lt;/p>
+more approachable/solvable?&lt;/li>
+&lt;/ol>
+&lt;h3 id="project-plan">Project Plan&lt;/h3>
 &lt;p>Developing an approach or strategy to solve a
 problem or create a solution that considers the
 sources of data, resources available and potential
-timeframes or deadlines.
-6. Develop a project plan based on
+timeframes or deadlines.&lt;/p>
+&lt;ol start="6">
+&lt;li>
+&lt;p>Develop a project plan based on
 time-scale and resources and key features of the
 project deliverables&lt;/p>
-&lt;ol start="7">
-&lt;li>What are the logical steps to manage data files for
-the project?&lt;/li>
+&lt;/li>
+&lt;li>
+&lt;p>What are the logical steps to manage data files for
+the project?&lt;/p>
+&lt;/li>
 &lt;/ol>
-&lt;p>Design
-Design algorithms captures the solution design we undertake to develop an automated solution to a problem.&lt;/p>
-&lt;p>Connection Diagram&lt;/p>
-&lt;ol start="14">
-&lt;li>Draw and label a detailed connection diagram.&lt;/li>
-&lt;/ol>
-&lt;p>Systems Diagram&lt;/p>
-&lt;p>INPUT&lt;/p>
-&lt;p>PROCESS&lt;/p>
-&lt;p>OUTPUT&lt;/p>
-&lt;p>Sensor&lt;/p>
+&lt;h2 id="design">Design&lt;/h2>
+&lt;p>Design algorithms captures the solution design we undertake to develop an automated solution to a problem.&lt;/p>
+&lt;div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&amp;quot;highlight&amp;quot;:&amp;quot;#0000ff&amp;quot;,&amp;quot;nav&amp;quot;:true,&amp;quot;resize&amp;quot;:true,&amp;quot;toolbar&amp;quot;:&amp;quot;zoom layers tags lightbox&amp;quot;,&amp;quot;edit&amp;quot;:&amp;quot;_blank&amp;quot;,&amp;quot;xml&amp;quot;:&amp;quot;&amp;lt;mxfile host=\&amp;quot;app.diagrams.net\&amp;quot; modified=\&amp;quot;2023-05-29T01:03:20.859Z\&amp;quot; agent=\&amp;quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15\&amp;quot; etag=\&amp;quot;Ae5Cp8alQ_Nl-69zvpD8\&amp;quot; version=\&amp;quot;21.3.5\&amp;quot;&amp;gt;\n &amp;lt;diagram name=\&amp;quot;Page-1\&amp;quot; id=\&amp;quot;theeIvWoAOZUXY_2hO-K\&amp;quot;&amp;gt;\n &amp;lt;mxGraphModel dx=\&amp;quot;474\&amp;quot; dy=\&amp;quot;802\&amp;quot; grid=\&amp;quot;1\&amp;quot; gridSize=\&amp;quot;10\&amp;quot; guides=\&amp;quot;1\&amp;quot; tooltips=\&amp;quot;1\&amp;quot; connect=\&amp;quot;1\&amp;quot; arrows=\&amp;quot;1\&amp;quot; fold=\&amp;quot;1\&amp;quot; page=\&amp;quot;1\&amp;quot; pageScale=\&amp;quot;1\&amp;quot; pageWidth=\&amp;quot;827\&amp;quot; pageHeight=\&amp;quot;1169\&amp;quot; math=\&amp;quot;0\&amp;quot; shadow=\&amp;quot;0\&amp;quot;&amp;gt;\n &amp;lt;root&amp;gt;\n &amp;lt;mxCell id=\&amp;quot;0\&amp;quot; /&amp;gt;\n &amp;lt;mxCell id=\&amp;quot;1\&amp;quot; parent=\&amp;quot;0\&amp;quot; /&amp;gt;\n &amp;lt;mxCell id=\&amp;quot;BtPJ0RQ9yB9yxvm4DMkY-9\&amp;quot; style=\&amp;quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\&amp;quot; edge=\&amp;quot;1\&amp;quot; parent=\&amp;quot;1\&amp;quot; source=\&amp;quot;BtPJ0RQ9yB9yxvm4DMkY-2\&amp;quot; target=\&amp;quot;BtPJ0RQ9yB9yxvm4DMkY-3\&amp;quot;&amp;gt;\n &amp;lt;mxGeometry relative=\&amp;quot;1\&amp;quot; as=\&amp;quot;geometry\&amp;quot; /&amp;gt;\n &amp;lt;/mxCell&amp;gt;\n &amp;lt;mxCell id=\&amp;quot;BtPJ0RQ9yB9yxvm4DMkY-2\&amp;quot; value=\&amp;quot;Input\&amp;quot; style=\&amp;quot;rounded=0;whiteSpace=wrap;html=1;fontFamily=Atkinson Hyperlegible;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAtkinson%2BHyperlegible;fontStyle=0;fontSize=14;\&amp;quot; vertex=\&amp;quot;1\&amp;quot; parent=\&amp;quot;1\&amp;quot;&amp;gt;\n &amp;lt;mxGeometry x=\&amp;quot;80\&amp;quot; y=\&amp;quot;280\&amp;quot; width=\&amp;quot;80\&amp;quot; height=\&amp;quot;40\&amp;quot; as=\&amp;quot;geometry\&amp;quot; /&amp;gt;\n &amp;lt;/mxCell&amp;gt;\n &amp;lt;mxCell id=\&amp;quot;BtPJ0RQ9yB9yxvm4DMkY-10\&amp;quot; style=\&amp;quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\&amp;quot; edge=\&amp;quot;1\&amp;quot; parent=\&amp;quot;1\&amp;quot; source=\&amp;quot;BtPJ0RQ9yB9yxvm4DMkY-3\&amp;quot; target=\&amp;quot;BtPJ0RQ9yB9yxvm4DMkY-4\&amp;quot;&amp;gt;\n &amp;lt;mxGeometry relative=\&amp;quot;1\&amp;quot; as=\&amp;quot;geometry\&amp;quot; /&amp;gt;\n &amp;lt;/mxCell&amp;gt;\n &amp;lt;mxCell id=\&amp;quot;BtPJ0RQ9yB9yxvm4DMkY-3\&amp;quot; value=\&amp;quot;Processing\&amp;quot; style=\&amp;quot;rounded=0;whiteSpace=wrap;html=1;fontFamily=Atkinson Hyperlegible;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAtkinson%2BHyperlegible;fontStyle=0;fontSize=14;\&amp;quot; vertex=\&amp;quot;1\&amp;quot; parent=\&amp;quot;1\&amp;quot;&amp;gt;\n &amp;lt;mxGeometry x=\&amp;quot;200\&amp;quot; y=\&amp;quot;280\&amp;quot; width=\&amp;quot;80\&amp;quot; height=\&amp;quot;40\&amp;quot; as=\&amp;quot;geometry\&amp;quot; /&amp;gt;\n &amp;lt;/mxCell&amp;gt;\n &amp;lt;mxCell id=\&amp;quot;BtPJ0RQ9yB9yxvm4DMkY-4\&amp;quot; value=\&amp;quot;Output\&amp;quot; style=\&amp;quot;rounded=0;whiteSpace=wrap;html=1;fontFamily=Atkinson Hyperlegible;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAtkinson%2BHyperlegible;fontStyle=0;fontSize=14;\&amp;quot; vertex=\&amp;quot;1\&amp;quot; parent=\&amp;quot;1\&amp;quot;&amp;gt;\n &amp;lt;mxGeometry x=\&amp;quot;320\&amp;quot; y=\&amp;quot;280\&amp;quot; width=\&amp;quot;80\&amp;quot; height=\&amp;quot;40\&amp;quot; as=\&amp;quot;geometry\&amp;quot; /&amp;gt;\n &amp;lt;/mxCell&amp;gt;\n &amp;lt;mxCell id=\&amp;quot;BtPJ0RQ9yB9yxvm4DMkY-5\&amp;quot; value=\&amp;quot;&amp;amp;lt;p&amp;amp;gt;Sensors&amp;amp;lt;br&amp;amp;gt;&amp;amp;lt;/p&amp;amp;gt;\&amp;quot; style=\&amp;quot;text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Atkinson Hyperlegible;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAtkinson%2BHyperlegible;\&amp;quot; vertex=\&amp;quot;1\&amp;quot; parent=\&amp;quot;1\&amp;quot;&amp;gt;\n &amp;lt;mxGeometry x=\&amp;quot;80\&amp;quot; y=\&amp;quot;330\&amp;quot; width=\&amp;quot;80\&amp;quot; height=\&amp;quot;30\&amp;quot; as=\&amp;quot;geometry\&amp;quot; /&amp;gt;\n &amp;lt;/mxCell&amp;gt;\n &amp;lt;mxCell id=\&amp;quot;BtPJ0RQ9yB9yxvm4DMkY-7\&amp;quot; value=\&amp;quot;&amp;amp;lt;p&amp;amp;gt;Algorithms&amp;amp;lt;/p&amp;amp;gt;&amp;amp;lt;p&amp;amp;gt;Code&amp;amp;lt;/p&amp;amp;gt;\&amp;quot; style=\&amp;quot;text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Atkinson Hyperlegible;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAtkinson%2BHyperlegible;\&amp;quot; vertex=\&amp;quot;1\&amp;quot; parent=\&amp;quot;1\&amp;quot;&amp;gt;\n &amp;lt;mxGeometry x=\&amp;quot;200\&amp;quot; y=\&amp;quot;330\&amp;quot; width=\&amp;quot;80\&amp;quot; height=\&amp;quot;50\&amp;quot; as=\&amp;quot;geometry\&amp;quot; /&amp;gt;\n &amp;lt;/mxCell&amp;gt;\n &amp;lt;mxCell id=\&amp;quot;BtPJ0RQ9yB9yxvm4DMkY-8\&amp;quot; value=\&amp;quot;&amp;amp;lt;p&amp;amp;gt;?&amp;amp;lt;/p&amp;amp;gt;\&amp;quot; style=\&amp;quot;text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Atkinson Hyperlegible;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAtkinson%2BHyperlegible;\&amp;quot; vertex=\&amp;quot;1\&amp;quot; parent=\&amp;quot;1\&amp;quot;&amp;gt;\n &amp;lt;mxGeometry x=\&amp;quot;320\&amp;quot; y=\&amp;quot;330\&amp;quot; width=\&amp;quot;80\&amp;quot; height=\&amp;quot;50\&amp;quot; as=\&amp;quot;geometry\&amp;quot; /&amp;gt;\n &amp;lt;/mxCell&amp;gt;\n &amp;lt;/root&amp;gt;\n &amp;lt;/mxGraphModel&amp;gt;\n &amp;lt;/diagram&amp;gt;\n&amp;lt;/mxfile&amp;gt;\n&amp;quot;}">&lt;/div>
+&lt;script type="text/javascript" src="https://viewer.diagrams.net/js/viewer-static.min.js">&lt;/script>
+&lt;h3 id="input">Input&lt;/h3>
 &lt;ol start="8">
 &lt;li>Describe the sensor(s) to be used and why?&lt;/li>
 &lt;li>What data will be collected from each sensor?&lt;/li>
 &lt;/ol>
-&lt;p>Algorithm
-Flowchart&lt;/p>
+&lt;h3 id="processing">Processing&lt;/h3>
 &lt;ol start="10">
-&lt;li>&lt;/li>
+&lt;li>Design the algorithms for the solution (use &lt;a href="https://app.diagrams.net">app.diagrams.net&lt;/a>)&lt;/li>
 &lt;/ol>
-&lt;p>Design the algorithms for the solution (draw.io)&lt;/p>
+&lt;h3 id="output">Output&lt;/h3>
 &lt;ol start="11">
-&lt;li>
-&lt;p>What is the output?&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>What is be turned on/off or controlled?&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>List the variables and their data type required.&lt;/p>
-&lt;/li>
+&lt;li>What is the output?&lt;/li>
+&lt;li>What is be turned on/off or controlled?&lt;/li>
 &lt;/ol>
-&lt;p>Sensor&lt;/p>
-&lt;p>Processor&lt;/p>
-&lt;p>?&lt;/p></description></item></channel></rss>
+&lt;h3 id="processing-1">Processing&lt;/h3>
+&lt;ol start="13">
+&lt;li>List the variables and their data type required.&lt;/li>
+&lt;/ol>
+&lt;h3 id="connection-diagram">Connection Diagram&lt;/h3>
+&lt;ol start="14">
+&lt;li>Draw and label a detailed connection diagram.&lt;/li>
+&lt;/ol></description></item></channel></rss>
