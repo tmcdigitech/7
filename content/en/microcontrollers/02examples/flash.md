@@ -11,7 +11,7 @@ import board
 import time
 
 # Built in red LED
-led = DigitalInOut(board.D13)
+led = DigitalInOut(board.LED)
 led.direction = Direction.OUTPUT
 
 while True:
