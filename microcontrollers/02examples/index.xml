@@ -1,0 +1,62 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>7 Digital Tech – Examples</title><link>https://tmcdigitech.github.io/7/microcontrollers/02examples/</link><description>Recent content in Examples on 7 Digital Tech</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://tmcdigitech.github.io/7/microcontrollers/02examples/index.xml" rel="self" type="application/rss+xml"/><item><title>Microcontrollers: Flash a light</title><link>https://tmcdigitech.github.io/7/microcontrollers/02examples/flash/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/7/microcontrollers/02examples/flash/</guid><description>
+&lt;p>The first project you do with any new piece of hardware: flash a light.&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">from&lt;/span> digitalio &lt;span style="color:#ff79c6">import&lt;/span> DigitalInOut, Direction
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">import&lt;/span> board
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">import&lt;/span> time
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#6272a4"># Built in red LED&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>led &lt;span style="color:#ff79c6">=&lt;/span> DigitalInOut(board&lt;span style="color:#ff79c6">.&lt;/span>LED)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>led&lt;span style="color:#ff79c6">.&lt;/span>direction &lt;span style="color:#ff79c6">=&lt;/span> Direction&lt;span style="color:#ff79c6">.&lt;/span>OUTPUT
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">while&lt;/span> &lt;span style="color:#ff79c6">True&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> led&lt;span style="color:#ff79c6">.&lt;/span>value &lt;span style="color:#ff79c6">=&lt;/span> &lt;span style="color:#ff79c6">True&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> time&lt;span style="color:#ff79c6">.&lt;/span>sleep(&lt;span style="color:#bd93f9">0.5&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> led&lt;span style="color:#ff79c6">.&lt;/span>value &lt;span style="color:#ff79c6">=&lt;/span> &lt;span style="color:#ff79c6">False&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> time&lt;span style="color:#ff79c6">.&lt;/span>sleep(&lt;span style="color:#bd93f9">0.5&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Microcontrollers: Use NeoPixel strip</title><link>https://tmcdigitech.github.io/7/microcontrollers/02examples/neopixels/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/7/microcontrollers/02examples/neopixels/</guid><description>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">import&lt;/span> board
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">import&lt;/span> neopixel
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">import&lt;/span> time
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">import&lt;/span> digitalio
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pixpin &lt;span style="color:#ff79c6">=&lt;/span> board&lt;span style="color:#ff79c6">.&lt;/span>GP28
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>numpix &lt;span style="color:#ff79c6">=&lt;/span> &lt;span style="color:#bd93f9">3&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pixels &lt;span style="color:#ff79c6">=&lt;/span> neopixel&lt;span style="color:#ff79c6">.&lt;/span>NeoPixel(
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> pixpin, numpix, brightness&lt;span style="color:#ff79c6">=&lt;/span>&lt;span style="color:#bd93f9">1&lt;/span>, auto_write&lt;span style="color:#ff79c6">=&lt;/span>&lt;span style="color:#ff79c6">True&lt;/span>, pixel_order&lt;span style="color:#ff79c6">=&lt;/span>neopixel&lt;span style="color:#ff79c6">.&lt;/span>GRBW
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>RED &lt;span style="color:#ff79c6">=&lt;/span> (&lt;span style="color:#bd93f9">255&lt;/span>, &lt;span style="color:#bd93f9">0&lt;/span>, &lt;span style="color:#bd93f9">0&lt;/span>, &lt;span style="color:#bd93f9">0&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>GREEN &lt;span style="color:#ff79c6">=&lt;/span> (&lt;span style="color:#bd93f9">0&lt;/span>, &lt;span style="color:#bd93f9">255&lt;/span>, &lt;span style="color:#bd93f9">0&lt;/span>, &lt;span style="color:#bd93f9">0&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>BLUE &lt;span style="color:#ff79c6">=&lt;/span> (&lt;span style="color:#bd93f9">0&lt;/span>, &lt;span style="color:#bd93f9">0&lt;/span>, &lt;span style="color:#bd93f9">255&lt;/span>, &lt;span style="color:#bd93f9">0&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>WHITE &lt;span style="color:#ff79c6">=&lt;/span> (&lt;span style="color:#bd93f9">0&lt;/span>, &lt;span style="color:#bd93f9">0&lt;/span>, &lt;span style="color:#bd93f9">0&lt;/span>, &lt;span style="color:#bd93f9">200&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>OFF &lt;span style="color:#ff79c6">=&lt;/span> (&lt;span style="color:#bd93f9">0&lt;/span>, &lt;span style="color:#bd93f9">0&lt;/span>, &lt;span style="color:#bd93f9">0&lt;/span>, &lt;span style="color:#bd93f9">0&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">while&lt;/span> &lt;span style="color:#ff79c6">True&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> pixels[&lt;span style="color:#bd93f9">0&lt;/span>] &lt;span style="color:#ff79c6">=&lt;/span> RED
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> time&lt;span style="color:#ff79c6">.&lt;/span>sleep(&lt;span style="color:#bd93f9">0.5&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> pixels[&lt;span style="color:#bd93f9">1&lt;/span>] &lt;span style="color:#ff79c6">=&lt;/span> GREEN
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> time&lt;span style="color:#ff79c6">.&lt;/span>sleep(&lt;span style="color:#bd93f9">0.5&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> pixels[&lt;span style="color:#bd93f9">2&lt;/span>] &lt;span style="color:#ff79c6">=&lt;/span> BLUE
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> time&lt;span style="color:#ff79c6">.&lt;/span>sleep(&lt;span style="color:#bd93f9">1.5&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> pixels&lt;span style="color:#ff79c6">.&lt;/span>fill(WHITE)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> time&lt;span style="color:#ff79c6">.&lt;/span>sleep(&lt;span style="color:#bd93f9">0.5&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
