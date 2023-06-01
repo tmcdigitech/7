@@ -1,4 +1,4 @@
 ---
 title: Project ideas
-weight: 0
+weight: 9000
 ---
