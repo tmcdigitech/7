@@ -30,3 +30,4 @@ while True:
     time.sleep(1.5)
     pixels.fill(WHITE)
     time.sleep(0.5)
+```
