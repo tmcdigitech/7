@@ -13,7 +13,7 @@ title: 7a Help getting started with project
 ## 2. Add library file
 5. Download the [neopixel library](https://tmcdigitech.github.io/7/assessment/microcontrollers/7-project/neopixel.mpy) and copy it into the `lib` folder on the CIRCUITPY drive.
 
-## 2. Open file and test code
+## 3. Open file and test code
 6. Open Mu Editor.
 7. Choose `Load`, and find the CIRCUITPY drive. Open the file called `code.py`. This is the program file the Pico is executing.
 8. Find the [example programs](https://tmcdigitech.github.io/7/microcontrollers/02examples/) on the website.
@@ -22,13 +22,13 @@ title: 7a Help getting started with project
 11. Check that the program is running correctly. In this case, the built-in green light next to the USB port should flash.
 12. Change the sleep timings to adjust the flash pattern. Can you write your initials in [morse code](https://en.wikipedia.org/wiki/Morse_code)?
 
-## 3. Solder components
+## 4. Solder components
 
 9. Watch the [soldering tutorial](https://tmccatholiceduau-my.sharepoint.com/:v:/g/personal/aknight_tmc_catholic_edu_au/ESbtkG_fkwNArYszbg9YyEsBX8ulkV_4hPzuVSXzYMH4_w?e=ES3aD6).
 10. Disconnect the USB cable from your Pico.
 11. Solder the components onto your Pico, making absolutely sure that you follow the [wiring diagram](https://tmcdigitech.github.io/7/assessment/microcontrollers/7-project/picoLayout.png) and connect the correct pins to each other. Use the colour coding on the wires to check which pin on the strip is connected to which pin on the board.
 
-## 4. Check your NeoPixel strip
+## 5. Check your NeoPixel strip
 12. Find the [Use NeoPixel strip](https://tmcdigitech.github.io/7/microcontrollers/02examples/neopixels/) example code on the website.
 13. Copy the code from the example into the code.py file, replacing whatever is already there, and save it.
 14. Check that the program is running correctly. In this case, the NeoPixels should light up variously in red, green, blue and white.
