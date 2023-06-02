@@ -92,7 +92,7 @@ the project?&lt;/p>
 &lt;ol start="5">
 &lt;li>Download the &lt;a href="https://tmcdigitech.github.io/7/assessment/microcontrollers/7-project/neopixel.mpy">neopixel library&lt;/a> and copy it into the &lt;code>lib&lt;/code> folder on the CIRCUITPY drive.&lt;/li>
 &lt;/ol>
-&lt;h2 id="2-open-file-and-test-code">2. Open file and test code&lt;/h2>
+&lt;h2 id="3-open-file-and-test-code">3. Open file and test code&lt;/h2>
 &lt;ol start="6">
 &lt;li>Open Mu Editor.&lt;/li>
 &lt;li>Choose &lt;code>Load&lt;/code>, and find the CIRCUITPY drive. Open the file called &lt;code>code.py&lt;/code>. This is the program file the Pico is executing.&lt;/li>
@@ -102,13 +102,13 @@ the project?&lt;/p>
 &lt;li>Check that the program is running correctly. In this case, the built-in green light next to the USB port should flash.&lt;/li>
 &lt;li>Change the sleep timings to adjust the flash pattern. Can you write your initials in &lt;a href="https://en.wikipedia.org/wiki/Morse_code">morse code&lt;/a>?&lt;/li>
 &lt;/ol>
-&lt;h2 id="3-solder-components">3. Solder components&lt;/h2>
+&lt;h2 id="4-solder-components">4. Solder components&lt;/h2>
 &lt;ol start="9">
 &lt;li>Watch the &lt;a href="https://tmccatholiceduau-my.sharepoint.com/:v:/g/personal/aknight_tmc_catholic_edu_au/ESbtkG_fkwNArYszbg9YyEsBX8ulkV_4hPzuVSXzYMH4_w?e=ES3aD6">soldering tutorial&lt;/a>.&lt;/li>
 &lt;li>Disconnect the USB cable from your Pico.&lt;/li>
 &lt;li>Solder the components onto your Pico, making absolutely sure that you follow the &lt;a href="https://tmcdigitech.github.io/7/assessment/microcontrollers/7-project/picoLayout.png">wiring diagram&lt;/a> and connect the correct pins to each other. Use the colour coding on the wires to check which pin on the strip is connected to which pin on the board.&lt;/li>
 &lt;/ol>
-&lt;h2 id="4-check-your-neopixel-strip">4. Check your NeoPixel strip&lt;/h2>
+&lt;h2 id="5-check-your-neopixel-strip">5. Check your NeoPixel strip&lt;/h2>
 &lt;ol start="12">
 &lt;li>Find the &lt;a href="https://tmcdigitech.github.io/7/microcontrollers/02examples/neopixels/">Use NeoPixel strip&lt;/a> example code on the website.&lt;/li>
 &lt;li>Copy the code from the example into the code.py file, replacing whatever is already there, and save it.&lt;/li>
