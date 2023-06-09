@@ -1,3 +1,8 @@
+---
+title: Sample code
+---
+
+```python
 import board, neopixel, time, digitalio
 
 
@@ -20,9 +25,7 @@ WHITE = (0, 0, 0, 200)
 OFF = (0, 0, 0, 0)
 
 while True:
-    print(
-        pin.value,
-    )
+    print(pin.value)
     if pin.value:
         pixels.fill(RED)
         time.sleep(2)
@@ -35,3 +38,4 @@ while True:
 
     else:
         pixels.fill(OFF)
+```
