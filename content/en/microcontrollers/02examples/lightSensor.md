@@ -1,5 +1,5 @@
 ---
-title: Flash a light
+title: Basic night light
 weight: 10
 ---
 
