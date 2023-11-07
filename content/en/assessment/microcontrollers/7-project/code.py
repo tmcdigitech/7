@@ -1,8 +1,3 @@
----
-title: Sample code
----
-
-```python
 import board, neopixel, time, digitalio
 
 
@@ -38,4 +33,3 @@ while True:
 
     else:
         pixels.fill(OFF)
-```
