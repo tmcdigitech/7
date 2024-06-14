@@ -5,6 +5,7 @@ title: "7: Digital Project"
 - [Project documentation template](7digitalProject.pptx)
 - [Soldering tutorial video](https://tmccatholiceduau-my.sharepoint.com/:v:/g/personal/aknight_tmc_catholic_edu_au/ESbtkG_fkwNArYszbg9YyEsB2jNfQllsAZQTrPo3GYkt1g?e=XhicgF) (from [YouTube](https://www.youtube.com/watch?v=Qps9woUGkvI&pp=ygUSc29sZGVyaW5nIHR1dG9yaWFs))
 - [Soldering cheat sheet](cheatsheet.pdf)
+- [Night light design choices](7digitalProjectDesigns.pptx)
 - [Pi Pico Firmware](https://downloads.circuitpython.org/bin/raspberry_pi_pico/en_US/adafruit-circuitpython-raspberry_pi_pico-en_US-8.0.5.uf2)
 - [Neopixel library](neopixel.mpy)
 
